@@ -1,0 +1,71 @@
+<html>
+<head>
+	<title>Slide Over Menu</title>
+
+		<!-- jQuery CDN -->
+
+	<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+
+	<!-- Link to external style sheet -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Font Awesome CDN -->
+	<script src="https://use.fontawesome.com/9d75f3d839.js"></script>
+
+
+
+
+		<script type="text/javascript">
+
+		$(document).ready(function() {
+
+ 			// when nav-toggle is clicked, add a class of 'open'
+			// to .main-navigation
+			$('.nav-toggle').on('click', function(){
+				$('.main-navigation').toggleClass('open');
+			});
+
+		});
+
+
+
+
+
+
+	</script>
+
+	
+</head>
+<body>
+
+	<header>
+
+		<h1 class='site-title'>Slide Over Menu</h1>
+
+		<!-- Getting the 'hamburger' icon from Font Awesome -->
+		<i class="fa fa-bars nav-toggle"></i>
+
+		<nav class='main-navigation'>
+			<!-- the following allows us to close the slide out menu -->
+			<span class='nav-toggle'>Close</span>
+
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Clients</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+			
+		</nav>
+
+	</header>
+
+	<div>
+		<h2>Hello</h2>
+	</div>
+
+
+
+
+</body>
+</html>
