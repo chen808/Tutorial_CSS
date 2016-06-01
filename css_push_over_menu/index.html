@@ -1,0 +1,87 @@
+<html>
+<head>
+	<title>Slide Over Menu</title>
+
+		<!-- jQuery CDN -->
+
+	<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+
+	<!-- Link to external style sheet -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Font Awesome CDN -->
+	<script src="https://use.fontawesome.com/9d75f3d839.js"></script>
+
+
+
+
+		<script type="text/javascript">
+
+		$(document).ready(function() {
+
+ 			// when nav-toggle is clicked, add a class of 'open'
+			// to .main-navigation
+			$('.nav-toggle').on('click', function(){
+				$('.wrapper').toggleClass('open');
+			});
+
+		});
+
+
+
+
+
+
+	</script>
+
+	
+</head>
+<body>
+
+<div class='outer-wrapper'>
+
+	<div class='wrapper'>
+
+		<header>
+			<h1 class='site-title'>Slide Over Menu</h1>
+
+			<!-- Getting the 'hamburger' icon from Font Awesome -->
+			<i class="fa fa-bars nav-toggle"></i>
+
+			<nav class='main-navigation'>
+				<!-- the following allows us to close the slide out menu -->
+				<span class='nav-toggle'>Close</span>
+
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Clients</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+				
+			</nav>
+		</header>
+
+		<div>
+			<h2>Hello</h2>
+
+			<p>
+				Bacon ipsum dolor amet bresaola ground round fatback picanha, boudin prosciutto tri-tip pancetta swine beef ribs. Chicken beef jowl drumstick, corned beef bresaola sirloin pig strip steak salami. Flank tri-tip chicken brisket rump turkey. Shank beef ribs fatback tail ball tip, corned beef alcatra shankle kevin pastrami brisket t-bone filet mignon landjaeger tri-tip. Pork t-bone beef biltong porchetta ground round. Landjaeger ham hock tongue, kevin chicken ball tip capicola. Boudin bacon meatloaf kevin ribeye hamburger, pork cupim shoulder cow pancetta.
+			</p>
+
+			<p>
+				Ball tip ground round short loin alcatra kielbasa. Ham capicola venison, meatloaf filet mignon sausage biltong shankle pork belly shoulder pastrami kielbasa porchetta. Corned beef venison tri-tip ham, rump picanha prosciutto ham hock shoulder cupim beef meatloaf kielbasa. Frankfurter flank short loin, doner turducken shank bresaola tail hamburger cow.
+			</p>
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
