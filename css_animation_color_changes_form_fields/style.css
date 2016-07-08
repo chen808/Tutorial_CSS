@@ -1,0 +1,36 @@
+* {
+	font-family: Helvetica, sans-serif;
+}
+
+label {
+	display: inline-block;
+	float: left;
+	clear: left;
+	text-align: right;
+	margin-right: 20px;
+	padding-top: 10px;
+}
+
+input {
+	display: inline-block;
+	float: left;
+	margin-bottom: 20px;
+}
+
+input[type="text"], input[type="email"], input[type="search"] {
+	border: none;
+	background-color: rgb(249, 228, 130);
+	width: 318px;
+	padding: .5em;
+	font-size: 1em;
+	-webkit-transition: background-color .75s ease;
+	-mox-transition: background-color .75s ease;
+	-o-transition: background-color .75s ease;
+	transition: background-color .75s ease;
+} 
+
+input:focus, textarea:focus {
+	border: 2px solid rgb(168, 88, 163);
+	background-color: rgba(168, 88, 163, 1);
+	color: #fff; /* this makes sure text will be white */
+}
