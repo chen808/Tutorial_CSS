@@ -1,0 +1,21 @@
+.red-box {
+	width: 250px;
+	height: 250px;
+	background-color: red;
+	margin: 20px;
+	float: left;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+.red-box:hover {
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	-webkit-box-shadow: 3px 3px 5px #000;
+	-mox-box-shadow: 3px 3px 5px #000;
+	box-shadow: 3px 3px 5px #000;
+}
